@@ -1,66 +1,171 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Requirement
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Php version >8.1 & Mysql version >5.1
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Project Description
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**BMSys**(Blog Management System) a web-based platform , directed towards three different types of authenticated user - **Admin**, **Moderator** and **Author**. Each individual has their own unique role.
 
-## Learning Laravel
+Let's  Come to the project, here are some few features related to the project.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Own Login & Registration System.
+- Social Login through Google, Github using Laravel Socialite.
+- Only Admin can create Moderator with a email and after a successful creation, a unique password will be send to the Moderator's email for login purpose.
+- Moderator can create Tags and Catagories for the Author/Users and also can observe something like total no. Posts, Likes, Comments on the site.
+- Author can create Posts, but by default it will not be published, brfore it got published they can update the post, but after that they have only two opt view or delete the post.
+- UpVote & DownVote System for individual posts.
+- Comment System for individual posts.
+- There is a profile section for every type of user. 
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+# Screenshots
+Here are some screenshots related to that project
 
-### Premium Partners
+- **LogIn Screen**
+![App Screenshot](https://thumbs2.imgbox.com/0a/7a/TUSnG2wc_t.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+- **SigUp Screen**
+![App Screenshot](https://thumbs2.imgbox.com/82/eb/6G5IaM4s_t.png)
 
-## Contributing
+- **Home Screen**
+![App Screenshot](https://thumbs2.imgbox.com/3b/b1/DQGApvfK_t.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Tags Screen**
+![App Screenshot](https://thumbs2.imgbox.com/51/12/8PeUK6Sj_t.png)
 
-## Code of Conduct
+- **Posts Screen**
+![App Screenshot](https://thumbs2.imgbox.com/33/ff/U5bmUTsM_t.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Moderator Screen**
+![App Screenshot](https://thumbs2.imgbox.com/80/ab/K9q7jwi3_t.png)
 
-## Security Vulnerabilities
+- **Create Screen**
+![App Screenshot](https://thumbs2.imgbox.com/82/85/c7vTzYMQ_t.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Delete Screen**
+![App Screenshot](https://thumbs2.imgbox.com/50/7a/Yw0rzUel_t.png)
+
+- **Author Dashboard Screen**
+![App Screenshot](https://thumbs2.imgbox.com/bf/45/ZvS8mMje_t.png)
+
+
+# Local Installation
+
+After you have the project, in your local environment inside phpMyAdmin create a database named **BMsys**
+
+
+Run the following Commands
+```bash
+  php artisan serve
+```
+```bash
+  php artisan migrate:fresh
+```
+```bash
+  php artisan db:seed
+```
+
+    
+# Customization
+
+### 1) Seeder File Customization :-
+
+If you want to seed predefind seeder files, follow the below steps
+
+go to
+
+```bash
+  BMS/database/seeders/DatabaseSeeder.php
+```
+and uncomment the following lines :-
+
+```bash
+        $this->call(UsersSeeder::class);
+        $this->call(UserRolePivotSeeder::class);
+        $this->call(TagsSeeder::class);
+        $this->call(CatagoriesSeeder::class);
+        $this->call(PostsSeeder::class);
+        $this->call(PostTagPivotSeeder::class);
+        $this->call(RatingsSeeder::class);
+```
+#
+
+### 2) Socialite Customization :-
+
+If you want to enable social login, follow the below steps
+
+go to **.env** file under BMS and put your **google Id & secret Id** inside the quoted line
+
+```bash
+GOOGLE_CLIENT_ID="use your google client id "
+GOOGLE_CLIENT_SECRET="use your google secret id"
+```
+put your **github Id & secret Id** inside the quoted line
+
+```bash
+GOOGLE_CLIENT_ID="use your google client id "
+GOOGLE_CLIENT_SECRET="use your google secret id"
+```
+#
+
+### 3) Email Verification :-
+
+By default email verification is disable in this project,if you want to enable it do the following steps
+
+- go to 
+```bash
+BMS/app/Models/User.php
+```
+replace the class name with
+```bash
+class User extends Authenticatable implements MustVerifyEmail 
+```
+- go to 
+```bash
+BMS/app/Http/Controllers/DashboardController.php
+```
+replace  **$this->middleware('auth')** under  **function __construct(){...}** with
+```bash
+$this->middleware(['auth','verified']); 
+```
+- go to 
+```bash
+BMS/routes/web.php
+```
+replace  **Auth::routes();** with
+```bash
+Auth::routes(['verify' => true]); 
+```
+#
+
+### 4) Mail Customization :-
+
+go to **.env** file under BMS and replace these with your value,
+
+
+if you using Google mail you can use those configuration  :-
+```bash
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.googlemail.com
+MAIL_PORT=465
+MAIL_USERNAME=YOUR_EMAIL_NAME
+MAIL_PASSWORD=YOUR_EMAIL_PASSWORD
+MAIL_ENCRYPTION=ssl
+MAIL_FROM_ADDRESS=YOUR_EMAIL_NAME
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
+
+## Author
+
+- [@itzDeepraj](https://github.com/itzDeepraj)
+
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+BMSys is licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
