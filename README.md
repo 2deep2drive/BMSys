@@ -24,8 +24,8 @@ Let's  Come to the project, here are some few features related to the project.
 # Screenshots
 Here are some screenshots related to that project
 
-- **LogIn Screen**
 ![App Screenshot](https://thumbs2.imgbox.com/0a/7a/TUSnG2wc_t.png)
+- **LogIn Screen**
 
 - **SigUp Screen**
 ![App Screenshot](https://thumbs2.imgbox.com/82/eb/6G5IaM4s_t.png)
