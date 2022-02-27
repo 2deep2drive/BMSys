@@ -27,8 +27,10 @@ Here are some screenshots related to that project
 ![App Screenshot](https://thumbs2.imgbox.com/0a/7a/TUSnG2wc_t.png)
 - **LogIn Screen**
 
-- **SigUp Screen**
+
 ![App Screenshot](https://thumbs2.imgbox.com/82/eb/6G5IaM4s_t.png)
+- **SigUp Screen**
+
 
 - **Home Screen**
 ![App Screenshot](https://thumbs2.imgbox.com/3b/b1/DQGApvfK_t.png)
