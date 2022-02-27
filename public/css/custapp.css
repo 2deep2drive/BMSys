@@ -1,0 +1,141 @@
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+.google,.github{
+    font-size: 16px;
+    padding:0.5rem 1rem;
+}
+
+
+
+/* --------------------------------- */
+
+.fw5 {
+    font-weight: 500;
+}
+.fw6 {
+    font-weight: 600;
+}
+.fw7 {
+    font-weight: 700;
+}
+
+.navBGC {
+    background-color: #fff;
+}
+.footerBGC {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.user_profile {
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(208, 208, 208);
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+.bg-dashboard-custom-blue {
+    background-color: #e3ecf5e9 !important;
+}
+
+.heading{
+    height: 240px;
+    background-color:#4e73df;
+}
+.imgDiv{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+/*  */
+#button .knobs:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.35),
+        0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+#button .checkbox:checked + .knobs:before {
+    content: "";
+    left: 32px;
+    background-color: #fff;
+}
+#button .checkbox:checked ~ .layer {
+    background-color: #007bff;
+}
+#button .knobs,
+#button .knobs:before,
+#button .layer {
+    transition: 0.3s ease all;
+}
+.knobs,
+.layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.button {
+    position: relative;
+    top: 50%;
+    width: 56px;
+    height: 26px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+    margin: 0;
+}
+.button.r,
+.button.r .layer {
+    border-radius: 100px;
+}
+.checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+.knobs {
+    z-index: 2;
+}
+.layer {
+    width: 100%;
+    background-color: #d3d3d3;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+code{
+    font-size: 16px !important;
+}
+/* user profile on comment section */
+

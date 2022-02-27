@@ -1,0 +1,112 @@
+
+
+.body{
+    background-color: #FCFCF7;
+    
+}
+.custom_card-footer-login {
+    background-color: #fff;
+}
+
+.google,.github,.mail,.register,.resetPassword{
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- home bg color ----- */
+.bg-home {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+/* ----- /home bg color ----- */
+/* ----- custom footer color ----- */
+.bg-custom-footer {
+    /* background-color: rgba(0, 0, 0, 0.07); */
+    background-color: #fff;
+}
+/* ----- /custom footer color ----- */
+/* card custom css */
+.custom_card {
+    /* border-left: 1px solid rgba(0, 0, 0, 0.05) !important; */
+    border-radius: 0 !important;
+}
+
+.custom_card-header {
+    /* background-color: #fff; */
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.custom_card-footer {
+    background-color: rgba(0, 0, 0, 0.02);
+    /* background-color: #fff; */
+}
+
+/* /card custom css */
+.custom-text-span {
+    font-weight: 700;
+}
+.custom-font-weight-600 {
+    font-weight: 600;
+}
+/*  */
+
+.user_profile {
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(208, 208, 208);
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+.bg-dashboard-custom-blue {
+    background-color: #e3ecf5e9 !important;
+}
+
+.heading{
+    height: 240px;
+    background-color:#6eb2fc;
+}
+.imgDiv{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+/*  */
+.note-resizebar {
+    display: none;
+
+    /* border-right: 0; */
+}
+
+/* .note-editor.note-frame .note-editing-area .note-editable {
+    overflow: hidden;
+}
+
+.note-editor {
+    border: none !important;
+}
+
+.note-editor.note-frame .note-statusbar {
+    border: none;
+} */
+
