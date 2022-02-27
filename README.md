@@ -24,40 +24,55 @@ Let's  Come to the project, here are some few features related to the project.
 # Screenshots
 Here are some screenshots related to that project
 
-- **LogIn Screen**
+
 ![App Screenshot](https://thumbs2.imgbox.com/0a/7a/TUSnG2wc_t.png)
+- **LogIn Screen**
 
 
-- **SigUp Screen**
 ![App Screenshot](https://thumbs2.imgbox.com/82/eb/6G5IaM4s_t.png)
+- **SigUp Screen**
 
 
 
-- **Home Screen**
 ![App Screenshot](https://thumbs2.imgbox.com/3b/b1/DQGApvfK_t.png)
+- **Home Screen**
 
-- **Tags Screen**
+
+
+
 ![App Screenshot](https://thumbs2.imgbox.com/51/12/8PeUK6Sj_t.png)
+- **Tags Screen**
 
-- **Posts Screen**
+
+
+
 ![App Screenshot](https://thumbs2.imgbox.com/33/ff/U5bmUTsM_t.png)
+- **Posts Screen**
 
-- **Moderator Screen**
+
+
+
 ![App Screenshot](https://thumbs2.imgbox.com/80/ab/K9q7jwi3_t.png)
+- **Moderator Screen**
 
-- **Create Screen**
+
+
+
 ![App Screenshot](https://thumbs2.imgbox.com/82/85/c7vTzYMQ_t.png)
+- **Create Screen**
 
 
 
-- **Delete Screen**
+
+
 ![App Screenshot](https://thumbs2.imgbox.com/50/7a/Yw0rzUel_t.png)
+- **Delete Screen**
 
 
 
-- **Author Dashboard Screen**
+
 ![App Screenshot](https://thumbs2.imgbox.com/bf/45/ZvS8mMje_t.png)
-
+- **Author Dashboard Screen**
 
 # Local Installation
 
