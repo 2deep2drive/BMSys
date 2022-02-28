@@ -28,12 +28,6 @@ class HomeController extends Controller
                 'ratings as dislikedByUser' => function ($query) {
                     $query->where('user_id', Auth::id())->where('dislike', 1);},
             ])
-            ->whereExists(
-                function ($query) {
-                    $query->from('ratings')
-                        ->where('like', 1);
-                })
-
             ->paginate(2);
 
         $tags = Tag::all();
