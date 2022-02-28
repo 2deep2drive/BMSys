@@ -113,6 +113,14 @@ and uncomment the following lines :-
         $this->call(PostTagPivotSeeder::class);
         $this->call(RatingsSeeder::class);
 ```
+after that run the following Commands
+
+```bash
+  php artisan migrate:fresh
+```
+```bash
+  php artisan db:seed
+```
 #
 
 ### 2) Socialite Customization :-
