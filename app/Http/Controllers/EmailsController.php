@@ -12,7 +12,6 @@ class EmailsController extends Controller
         /**
          * Replace Your email with abc@gmail.com
          */
-        
         Mail::to('abc@gmail.com')->send(new WelcomeMail());
 
     }
